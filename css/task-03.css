@@ -1,0 +1,13 @@
+.styling {
+    width: 600px;
+    height: 500px;
+    
+}
+.li-style {
+    list-style-type: none;
+}
+.gallery {
+    display: flex;
+    gap: 5px;
+    border: 10px solid blue;
+}
