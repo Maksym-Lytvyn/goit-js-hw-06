@@ -5,8 +5,8 @@ console.log(spanColor);
 console.log(button);
 
 button.addEventListener('click', () => {
-  spanColor.textContent = getRandomHexColor();
-  bodyColor.style.backgroundColor = getRandomHexColor();
+  const colorClick = spanColor.textContent = getRandomHexColor();
+  bodyColor.style.backgroundColor = colorClick;
 })
 
 
