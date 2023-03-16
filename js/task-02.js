@@ -9,10 +9,3 @@ const ingredientsEL = ingredients.forEach((ingredient) => {  const listEL = docu
 const elementsUl = document.querySelector("#ingredients");elementsUl.append(...allIngredients);console.log(elementsUl);
 
 
-
-/* const result = ingredients.forEach((ingredient) => {
-  const newEl = document.createElement('li');
-  newEl.textContent = `${ingredient}`;
-  newEl.classList.add('item');
-  ingredientsList.append(newEl);
-}) */
